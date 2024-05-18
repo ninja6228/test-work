@@ -1,0 +1,42 @@
+.page {
+  margin-top: 3vh;
+  padding: 2vh;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.block__cards {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+.block__button {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.buttonFilter {
+  border-color: #e4e4e4;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  box-shadow: -10px 10px 15px -2px #d8d3d3;
+  transition: .4s;
+}
+
+.buttonFilter:hover {
+  box-shadow: -20px 25px 20px -2px #d8d3d3;
+}
